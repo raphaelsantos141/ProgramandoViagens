@@ -8,7 +8,7 @@ Integrantes do grupo:
 - Lucas
 - Lucas
 - Pedro
-- Raphael
+- Raphael Augusto dos Santos RA:
 - Renan
 - Victor
 - William
