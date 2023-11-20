@@ -131,6 +131,37 @@ h1, h2{
   font-size: 40px;
 }
 
+h3{
+  color: #3a3a3a;
+  font-size: 40px;
+  text-align: left;
+  font-weight: bold;
+
+}
+
+h4{
+  color: #616161;
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.descricao{
+  margin: auto;
+  max-width: 1200px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #272727;
+}
+
+.descricao p{
+  color: #969696;
+  font-size: 23px;
+  text-align: left;
+}
+
 .containerproje{
   position: relative;
 }

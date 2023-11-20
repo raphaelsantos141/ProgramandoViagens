@@ -43,35 +43,7 @@ class MobileNavbar {
   );
   mobileNavbar.init();
 
-let slideIndex = 1;
-showSlides(slideIndex);
-
-
-function ProximoSlide(n) {
-  showSlides(slideIndex += n);
-}
-
-
-function imagemSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("Galeria1");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) { slideIndex = 1 }
-  if (n < 1) { slideIndex = slides.length }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex - 1].style.display = "block";
-  dots[slideIndex - 1].className += " active";
-}
-
+/*Galeria da página principal*/
 const imagens_carrosel = document.querySelector(".imagens_carrosel");
 const carrosel = document.querySelector(".carrosel");
 const firstCardWidth = carrosel.querySelector(".card").offsetWidth;
@@ -173,3 +145,8 @@ function prev(){
 }
 
 setInterval(next, 7000);
+/*Fim da Galeria da página principal*/
+
+let slideIndex = 0;
+showSlides();
+
