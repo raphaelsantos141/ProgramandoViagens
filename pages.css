@@ -89,6 +89,9 @@ nav {
   .mobile-menu {
     display: block;
   }
+  .ativo a{
+    color: #52D681;
+  }
 }
 
 .nav-list.active {
@@ -197,8 +200,10 @@ justify-content: center;
 }
 
 @media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
+  .responsive{
+ padding: 3px;
+ 
+ border: 1px solid red;
   }
 }
 
@@ -299,6 +304,13 @@ margin-right: 2px;
       width: 100%;
   }
 }
+
+@media (max-width: 1340px) {
+  .descricao{
+    padding: 20%;
+  }
+}
+
 ::-webkit-selection {
   color: white;
   background: #52D681;

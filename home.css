@@ -62,7 +62,6 @@ nav {
   margin: 8px;
   transition: 0.3s;
 }
-
 @media (max-width: 999px) {
   body {
     overflow-x: hidden;
@@ -88,7 +87,6 @@ nav {
     display: block;
   }
 }
-
 .nav-list.active {
   transform: translateX(0);
 }
