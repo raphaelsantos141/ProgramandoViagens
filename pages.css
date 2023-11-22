@@ -202,8 +202,6 @@ justify-content: center;
 @media only screen and (max-width: 500px) {
   .responsive{
  padding: 3px;
- 
- border: 1px solid red;
   }
 }
 
