@@ -9,6 +9,11 @@
   list-style: none;
   font-family: 'Montserrat', sans-serif;
 }
+header{
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+}
 
 a {
   color: #fff;
@@ -63,11 +68,11 @@ nav {
   transition: 0.3s;
 }
 @media (max-width: 999px) {
-  body {
+  * {
     overflow-x: hidden;
   }
   .nav-list {
-    position: absolute;
+    position: fixed;
     top: 8vh;
     right: 0;
     width: 50vw;
@@ -78,6 +83,7 @@ nav {
     justify-content: space-around;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
+    z-index: 9;
   }
   .nav-list li {
     margin-left: 0;
@@ -85,6 +91,9 @@ nav {
   }
   .mobile-menu {
     display: block;
+  }
+  .ativo a{
+    color: #52D681;
   }
 }
 .nav-list.active {
@@ -120,6 +129,7 @@ body {
   min-height: 100vh;
   color: #777;
   background: #fff;
+  overflow-x: hidden;
 }
 
 h1, h2{
@@ -188,11 +198,12 @@ h4{
 }
 }
 
-
 .containerproje .slide-container .slide .contentproje h3{
   font-size: 35px;
   color: #52D681;
   font-family: 'Noto Sans', sans-serif;
+  border-radius: 5px;
+
 }
 
 .containerproje .slide-container .slide .contentproje p{
@@ -201,7 +212,6 @@ h4{
   font-family: 'Noto Sans', sans-serif;
   width: 40%;
   height: 10%;
-
 }
 
 .containerproje .slide-container .slide .contentproje .bntproj{
@@ -215,6 +225,7 @@ h4{
   border: 2px solid #52D681;
   font-family: 'Noto Sans', sans-serif;
   text-decoration: none;
+
 }
 
 .containerproje .slide-container .slide .contentproje .bntproj:hover{
