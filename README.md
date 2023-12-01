@@ -12,3 +12,5 @@ Integrantes do grupo:
 - Renan leite Freitas RA: 3023202980
 - Victor Yukiyoshi Oki RA: 3020232073 
 - William Gustavo Martins RA: 3023201183
+
+Link Vídeo Youtube: https://www.youtube.com/watch?v=-1g-a2m46VY&ab_channel=lindival
