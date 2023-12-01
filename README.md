@@ -14,3 +14,4 @@ Integrantes do grupo:
 - William Gustavo Martins RA: 3023201183
 
 Link Vídeo Youtube: https://www.youtube.com/watch?v=-1g-a2m46VY&ab_channel=lindival
+Link do site na Cloud: https://main.di6m0wyto7lcg.amplifyapp.com
