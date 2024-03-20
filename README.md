@@ -9,7 +9,6 @@ Integrantes do grupo:
 - Lucas Carvalho Guedes RA: 3023204305
 - Pedro Henrique de Oliveira da Silva RA: 3023202772
 - Raphael Augusto dos Santos RA: 3023200143
-- Renan leite Freitas RA: 3023202980
 - Victor Yukiyoshi Oki RA: 3020232073 
 - William Gustavo Martins RA: 3023201183
 
