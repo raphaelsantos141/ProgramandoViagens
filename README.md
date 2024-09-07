@@ -27,4 +27,4 @@ Este projeto foi desenvolvido como parte do primeiro semestre do curso de Análi
 ## Links Importantes
 
 - <a href="https://www.youtube.com/watch?v=-1g-a2m46VY&ab_channel=lindival" target="_blank">Vídeo do Projeto no YouTube</a>
-- <a href="https://main.di6m0wyto7lcg.amplifyapp.com" target="_blank">Acesse o Site na Cloud</a>
+- <a href="https://programandoviagens.vercel.app" target="_blank">Acesse o Site na Cloud</a>
